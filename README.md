@@ -143,7 +143,7 @@ The response body with "id" : 1
   "password": "Password 1"
  }
 ```
-### 4. **DELETE** request returns invalid Response Status Code when delete entity with non-existing ID 
+### 4. **DELETE** request returns invalid Response Status Code when delete element with non-existing ID 
 
 #### Steps to reproduce:<br/>
 ```
@@ -160,7 +160,7 @@ Response Status Code : 404
 Response Status Code : 200
 ```
 
-### 5. **DELETE** request returns invalid Response Status Code when delete entity with invalid(String) ID
+### 5. **DELETE** request returns invalid Response Status Code when delete element with invalid(String) ID
 
 #### Steps to reproduce:<br/>
 ```
