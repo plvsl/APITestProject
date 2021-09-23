@@ -5,10 +5,10 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 
-    protected String userName = "userName";
-    protected String password = "password";
-    protected String id = "id";
-    protected String idURL = "/{id}";
+    protected static final String userName = "userName";
+    protected static final String password = "password";
+    protected static final String id = "id";
+    protected static final String idURL = "/{id}";
     protected int usersSize = 10;
 
     @BeforeClass

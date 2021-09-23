@@ -11,7 +11,6 @@ public class UsersDeleteTests extends BaseTest {
 
     @Test
     public void checkDeleteResponseWithValidId() {
-
         given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -40,7 +39,7 @@ public class UsersDeleteTests extends BaseTest {
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .when()
-                .delete(idURL, "qwerty")
+                .delete(idURL, "String")
                 .then()
                 .assertThat()
                 .statusCode(HttpStatus.SC_NOT_FOUND);
@@ -60,7 +59,6 @@ public class UsersDeleteTests extends BaseTest {
 
     @Test
     public void checkDeleteRequestDeleteEntityFromDataBase() {
-
         given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)

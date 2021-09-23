@@ -94,7 +94,7 @@ public class UsersPutTests extends BaseTest {
                 .body(userName, equalTo("Polina"))
                 .body(password, equalTo("PolinaPassword"));
 
-        // check database result
+        // check data state result
         given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -106,5 +106,4 @@ public class UsersPutTests extends BaseTest {
                 .body(userName, equalTo("Polina"))
                 .body(password, equalTo("PolinaPassword"));
     }
-
 }
