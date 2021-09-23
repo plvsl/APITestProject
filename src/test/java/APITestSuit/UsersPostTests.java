@@ -112,7 +112,7 @@ public class UsersPostTests extends BaseTest {
     }
 
     @Test
-    public void checkPostResponseWithCorrectBodyAddedToDataBase() {
+    public void checkPostResponseWithCorrectBodyAddedToSystemState() {
         JSONObject requestBody = new JSONObject();
         requestBody.put(id, 11);
         requestBody.put(userName, "User 11");

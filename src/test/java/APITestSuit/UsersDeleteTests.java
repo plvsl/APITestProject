@@ -58,7 +58,7 @@ public class UsersDeleteTests extends BaseTest {
     }
 
     @Test
-    public void checkDeleteRequestDeleteEntityFromDataBase() {
+    public void checkDeleteRequestDeleteEntityFromSystemState() {
         given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
